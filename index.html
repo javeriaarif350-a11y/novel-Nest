@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Novel Nest — a cosy corner for curious minds. Discover fiction, romance, mysteries and your next favourite book.">
+  <meta name="theme-color" content="#352438">
+  <title>Novel Nest | Discover Your Next Favourite Book</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top novel-navbar">
+    <div class="container">
+      <a class="navbar-brand logo" href="#home"><span class="logo-icon"><i class="bi bi-book-half"></i></span> Novel
+        <em>Nest</em><small>YOUR COSY READING CORNER</small></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav"
+        aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="siteNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Our Story</a></li>
+          <li class="nav-item"><a class="nav-link" href="#featured">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="#discover">Genres</a></li><li class="nav-item"><a class="nav-link" href="#reading-club">Reading Club</a></li><li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3"><button class="cart-button" id="openCart" type="button"
+              aria-label="Open shopping cart"><i class="bi bi-basket2"></i><span class="cart-label">Cart</span><span
+                id="cartCount" class="cart-count">0</span></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <header class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow light-eyebrow"><span></span> A WORLD BETWEEN THE COVERS</p>
+          <h1>Every Book Opens<br><em>a New World.</em></h1>
+          <p class="hero-description">Find stories that stay with you, characters who feel like old friends, and pages
+            you simply cannot put down.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#featured" class="btn btn-forest">Explore Books <i class="bi bi-arrow-up-right"></i></a>
+            <a href="#about" class="btn btn-outline-cream">Our Story</a>
+          </div>
+          <div class="hero-caption"><i class="bi bi-bookmark-heart"></i> A LITTLE ESCAPE, ONE PAGE AT A TIME</div>
+        </div>
+        <div class="hero-book-stack" aria-hidden="true">
+          <div class="floating-book book-one"><span>THE ART OF<br>STORYTELLING</span><small>NOVEL NEST EDITION</small>
+          </div>
+          <div class="floating-book book-two"><span>WILD<br>IMAGINATIONS</span><small>READ · DREAM · REPEAT</small>
+          </div>
+          <div class="floating-book book-three"><span>THE QUIET<br>CHAPTER</span><small>A STORY TO KEEP</small></div>
+        </div>
+      </div>
+      <a href="#about" class="hero-scroll" aria-label="Scroll down"><i class="bi bi-arrow-down"></i></a>
+    </header>
+
+
+    <section class="value-strip">
+      <div class="container">
+        <div class="row g-3 text-center">
+          <div class="col-6 col-md-3"><i class="bi bi-book"></i><span>Stories for Everyone</span></div>
+          <div class="col-6 col-md-3"><i class="bi bi-heart"></i><span>Reader Approved</span></div>
+          <div class="col-6 col-md-3"><i class="bi bi-gift"></i><span>Thoughtful Book Gifts</span></div>
+          <div class="col-6 col-md-3"><i class="bi bi-leaf"></i><span>Made for Slow Moments</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section-space about-section" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="about-photo">
+              <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1100&q=85"
+                alt="Warm independent bookstore lined with bookshelves" loading="lazy">
+              <div class="photo-note"><i class="bi bi-quote"></i><span>For the love<br>of a good story.</span></div>
+            </div>
+          </div>
+          <div class="col-lg-6 about-text">
+            <p class="eyebrow">WELCOME TO OUR LITTLE WORLD</p>
+            <h2 class="section-title">A bookstore with<br><em>heart and soul.</em></h2>
+            <p>Novel Nest is a cosy home for curious minds, daydreamers and anyone who believes a good book can change
+              the way we see the world. We bring together stories from different genres, voices and places so every
+              reader can find a book that feels like theirs.</p>
+            <p>Whether you are searching for a page-turning mystery, a tender romance or a new perspective, there is
+              always room for one more story on our shelves.</p>
+            <div class="about-points">
+              <div><i class="bi bi-check2-circle"></i><span>Carefully selected reads</span></div>
+              <div><i class="bi bi-check2-circle"></i><span>Something for every kind of reader</span></div>
+              <div><i class="bi bi-check2-circle"></i><span>A welcoming space to discover</span></div>
+            </div>
+            <a href="#featured" class="underlined-link">Find your next read <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space books-section" id="featured">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">HANDPICKED FOR YOUR BOOKSHELF</p>
+          <h2 class="section-title">Featured <em>Books</em></h2>
+          <p>Fresh discoveries and timeless favourites, all in one place.</p>
+        </div>
+        <div class="book-tools">
+          <div class="search-box"><i class="bi bi-search"></i><input type="search" id="bookSearch" class="form-control"
+              placeholder="Search by book title..." aria-label="Search books by title"></div>
+          <div class="tool-selects">
+            <select class="form-select" id="genreFilter" aria-label="Filter by category">
+              <option value="all">All categories</option>
+              <option value="fiction">Fiction</option>
+              <option value="romance">Romance</option>
+              <option value="mystery">Mystery & Thriller</option>
+              <option value="fantasy">Fantasy</option>
+              <option value="self-help">Personal Growth</option>
+              <option value="historical">Historical Fiction</option><option value="science-fiction">Science Fiction</option>
+              <option value="young-adult">Young Adult</option><option value="horror">Horror</option>
+              <option value="poetry">Poetry</option><option value="biography">Biography</option>
+              <option value="children">Children’s Books</option><option value="classic">Classics</option>
+            </select>
+            <select class="form-select" id="priceSort" aria-label="Sort by price">
+              <option value="default">Sort by: Featured</option>
+              <option value="low-high">Price: Low to High</option>
+              <option value="high-low">Price: High to Low</option>
+              <option value="az">Title: A to Z</option>
+              <option value="za">Title: Z to A</option>
+            </select>
+          </div>
+        </div>
+        <div class="row g-4" id="bookGrid"></div>
+        <p class="no-results d-none" id="noResults">No books found. Try a different title or category.</p>
+      </div>
+    </section>
+
+    <section class="genre-feature fiction-feature">
+      <div class="container">
+        <div class="genre-copy">
+          <p class="eyebrow light-eyebrow">FOR THE HOPEFUL HEARTS</p>
+          <h2>Fall in love<br><em>with a story.</em></h2>
+          <p>From slow-burn romances to unforgettable fictional worlds, let the next chapter sweep you away.</p>
+          <a href="#featured" class="btn btn-cream" data-genre-link="romance">Explore Fiction & Romance <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="genre-image"><img
+        src="https://honeybeemill.com/cdn/shop/files/HBM_45204DCFF3F_900x.jpg?v=1789141179"
+          alt="A stack of novels ready to be read" loading="lazy"></div>
+      </div>
+    </section>
+
+
+    <section class="genre-feature mystery-feature">
+      <div class="container">
+        <div class="genre-image"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPD8Cor5B3umKKyCo-JtSfgX6qycDTUytk7CcPpymHNOA-9LKPnrp70dw&s=10"
+            alt="Moody open book in warm light" loading="lazy"></div>
+        <div class="genre-copy">
+          <p class="eyebrow">TURN THE PAGE. FEEL THE THRILL.</p>
+          <h2>Some secrets<br><em>beg to be found.</em></h2>
+          <p>Twists, clues and mysteries that keep you reading long after midnight. Are you ready to solve the story?
+          </p>
+          <a href="#featured" class="btn btn-forest" data-genre-link="mystery">Explore Mystery & Thriller <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bestseller-section section-space" id="bestsellers">
+      <div class="container">
+        <div class="bestseller-heading">
+          <div>
+            <p class="eyebrow">READERS CAN'T STOP TALKING ABOUT</p>
+            <h2 class="section-title">Bestsellers <em>this season</em></h2>
+          </div>
+          <a href="#featured" class="underlined-link">Shop all books <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="bestseller-row">
+          <div class="bestseller-number">01</div>
+          <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=300&q=85"
+            alt="Bestselling novel cover" loading="lazy">
+          <div class="bestseller-info"><span>READER FAVOURITE</span>
+            <h3>The Midnight Library</h3>
+            <p>A beautiful story about choices, possibilities and second chances.</p>
+          </div><i class="bi bi-stars bestseller-star"></i>
+          <div class="bestseller-number">02</div>
+          <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=300&q=85"
+            alt="Popular book cover" loading="lazy">
+          <div class="bestseller-info"><span>MOST LOVED</span>
+            <h3>Where the Pages Lead</h3>
+            <p>A heartwarming journey through unexpected chapters.</p>
+          </div><i class="bi bi-stars bestseller-star"></i>
+          <div class="bestseller-number">03</div>
+          <img src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=300&q=85"
+            alt="Popular mystery book cover" loading="lazy">
+          <div class="bestseller-info"><span>TOP MYSTERY PICK</span>
+            <h3>The Silent Clue</h3>
+            <p>A quiet town, a hidden truth and a mystery waiting to unfold.</p>
+          </div><i class="bi bi-stars bestseller-star"></i>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section-space discovery-section" id="discover">
+      <div class="container">
+        <div class="section-heading text-center"><p class="eyebrow">A SHELF FOR EVERY MOOD</p><h2 class="section-title">Explore the <em>world of books</em></h2><p>Choose a mood, discover a genre and find a story worth remembering.</p></div>
+        <div class="genre-tiles">
+          <a href="#featured" data-genre-link="fantasy"><span>✦</span><strong>Fantasy & Magic</strong><small>Other worlds await</small></a>
+          <a href="#featured" data-genre-link="historical"><span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 22h14"/>
+    <path d="M5 2h14"/> 
+    <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/>
+    <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/>
+  </svg></span><strong>Historical Fiction</strong><small>Stories from the past</small></a>
+          <a href="#featured" data-genre-link="science-fiction"><span>☄</span><strong>Science Fiction</strong><small>Imagine what’s next</small></a>
+          <a href="#featured" data-genre-link="horror"><span>☾</span><strong>Horror & Suspense</strong><small>For brave readers</small></a>
+          <a href="#featured" data-genre-link="young-adult"><span>♡</span><strong>Young Adult</strong><small>Growing-up stories</small></a>
+          <a href="#featured" data-genre-link="poetry"><span>✎</span><strong>Poetry</strong><small>Words that stay</small></a>
+        </div>
+      </div>
+    </section>
+    <section class="reading-club section-space" id="reading-club"><div class="container reading-club-inner"><div><p class="eyebrow light-eyebrow">READ TOGETHER, GROW TOGETHER</p><h2>One chapter can<br><em>start a conversation.</em></h2><p>Our reading corner is a place to share recommendations, set gentle reading goals and celebrate the books that make us think.</p><a href="#contact" class="btn btn-cream">Join the conversation <i class="bi bi-arrow-right"></i></a></div><div class="club-stats"><div><strong>12+</strong><span>Book genres</span></div><div><strong>24/7</strong><span>Stories to explore</span></div><div><strong>1</strong><span>Next favourite read</span></div></div></div></section>
+    <section class="section-space why-section"><div class="container"><div class="section-heading text-center"><p class="eyebrow">THE NOVEL NEST PROMISE</p><h2 class="section-title">More than just a <em>bookshop.</em></h2></div><div class="row g-4"><div class="col-md-4"><article class="promise-card"><i class="bi bi-compass"></i><h3>Find your next read</h3><p>Browse different genres and discover stories that match your interests and reading mood.</p></article></div><div class="col-md-4"><article class="promise-card"><i class="bi bi-bookmark-heart"></i><h3>Thoughtful selections</h3><p>Explore timeless classics, new discoveries and reader-loved favourites in one place.</p></article></div><div class="col-md-4"><article class="promise-card"><i class="bi bi-people"></i><h3>A welcoming community</h3><p>Share your love of reading and find inspiration from fellow book enthusiasts.</p></article></div></div></div></section>
+
+    <section class="section-space reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">KIND WORDS FROM OUR READERS</p>
+          <h2 class="section-title">Readers <em>love it here.</em></h2>
+          <p>Every happy reader adds a little more magic to our nest.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>“I came looking for one book and left with a list of ten. Such a lovely selection and a beautiful
+                little reading community.”</p>
+              <div class="review-person"><span>SA</span>
+                <div><strong>Sara A.</strong><small>Fiction lover</small></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>“The recommendations are wonderful. I finally found a mystery that kept me guessing until the very last
+                page.”</p>
+              <div class="review-person"><span>HM</span>
+                <div><strong>Hassan M.</strong><small>Mystery reader</small></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>“Novel Nest makes book shopping feel special. The cosy look, thoughtful picks and warm vibe are
+                everything.”</p>
+              <div class="review-person"><span>AN</span>
+                <div><strong>Ayesha N.</strong><small>Romance reader</small></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-content">
+          <div>
+            <p class="eyebrow light-eyebrow">A LETTER FOR BOOK LOVERS</p>
+            <h2>Good stories.<br><em>Delivered occasionally.</em></h2>
+            <p>Join our reading list for new arrivals, bookish inspiration and little surprises.</p>
+          </div>
+          <form id="newsletterForm" class="newsletter-form" novalidate>
+            <label class="visually-hidden" for="newsletterEmail">Email address</label>
+            <div class="newsletter-input"><input type="email" id="newsletterEmail" placeholder="Your email address"
+                required><button type="submit" aria-label="Subscribe"><i class="bi bi-arrow-right"></i></button></div>
+            <small id="newsletterFeedback" role="status">A preview subscription form — your email will not be stored.</small>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space contact-section" id="contact">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5 contact-info">
+            <p class="eyebrow">LET'S TALK BOOKS</p>
+            <h2 class="section-title">We'd love to<br><em>hear from you.</em></h2>
+            <p>Looking for a recommendation, asking about an order or simply want to share what you are reading? Drop us
+              a note.</p>
+            <div class="contact-line"><i class="bi bi-envelope"></i>
+              <div><small>EMAIL</small><a href="mailto:hello@novelnest.example">hello@novelnest.example</a></div>
+            </div>
+            <div class="contact-line"><i class="bi bi-geo-alt"></i>
+              <div><small>FIND OUR NEST</small><span>Karachi, Pakistan</span></div>
+            </div>
+            <div class="socials"><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="https://www.facebook.com/"
+                target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a
+                href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Pinterest"><i
+                  class="bi bi-pinterest"></i></a></div>
+          </div>
+          <div class="col-lg-7">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="order-form-heading">
+                <p class="eyebrow">DELIVERY DETAILS</p>
+                <h3>Where should we send your books?</h3>
+                <p>Your order is already attached. Just fill in your details to create your receipt.</p>
+              </div>
+              <div class="order-summary-preview" id="orderSummaryPreview">Your selected books will appear here after you confirm your order.</div>
+              <div class="row g-3">
+                <div class="col-md-6"><label for="contactName" class="form-label">Full Name</label><input
+                    class="form-control" id="contactName" name="customerName" type="text" placeholder="Your full name" autocomplete="name" required></div>
+                <div class="col-md-6"><label for="contactEmail" class="form-label">Email Address</label><input
+                    class="form-control" id="contactEmail" name="customerEmail" type="email" placeholder="you@example.com" autocomplete="email" required></div>
+                <div class="col-md-6"><label for="contactPhone" class="form-label">Phone Number</label><input
+                    class="form-control" id="contactPhone" name="customerPhone" type="tel" placeholder="03XX XXXXXXX" autocomplete="tel" required></div>
+                <div class="col-md-6"><label for="contactAddress" class="form-label">Delivery Address</label><input
+                    class="form-control" id="contactAddress" name="deliveryAddress" type="text" placeholder="House, street, area, city" autocomplete="street-address" required></div>
+                <div class="col-12"><button class="btn btn-forest" type="submit">Complete Order & Get Receipt <i
+                      class="bi bi-receipt"></i></button></div>
+              </div>
+              <div id="contactFeedback" class="form-feedback" role="status" aria-live="polite"></div>
+              <small class="demo-note">Your receipt will be created automatically after you submit these details.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-5"><a href="#home" class="footer-logo"><i class="bi bi-book-half"></i> Novel
+            <em>Nest</em></a>
+          <p>A cosy corner for curious minds. Find your next favourite story and let your imagination wander.</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h3>Explore</h3><a href="#about">Our Story</a><a href="#featured">Featured Books</a><a
+            href="#bestsellers">Bestsellers</a><a href="#reviews">Reader Reviews</a>
+        </div>
+        <div class="col-6 col-lg-4">
+          <h3>Keep in Touch</h3>
+          <p>Follow our pages for book recommendations and reading inspiration.</p>
+          <div class="socials footer-socials"><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+              aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="https://www.facebook.com/"
+              target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a
+              href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Pinterest"><i
+                class="bi bi-pinterest"></i></a></div>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> Novel Nest. All rights reserved.</span><span>Made for
+          the love of reading.</span></div>
+    </div>
+  </footer>
+
+
+  <div class="cart-shade" id="cartShade"></div>
+  <aside class="cart-panel" id="cartPanel" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-panel-head">
+      <div>
+        <p class="eyebrow">YOUR BOOK BAG</p>
+        <h2>Saved for later?</h2>
+      </div><button id="closeCart" class="close-cart" aria-label="Close cart"><i class="bi bi-x-lg"></i></button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+    <div id="cartEmpty" class="cart-empty"><i class="bi bi-basket"></i>
+      <p>Your basket is empty. There is a whole world waiting on the shelves.</p><button id="keepBrowsing"
+        class="underlined-link">Browse books <i class="bi bi-arrow-right"></i></button>
+    </div>
+    <div class="cart-panel-bottom">
+      <div class="cart-subtotal"><span>Subtotal</span><strong id="cartSubtotal">Rs. 0</strong></div>
+      <p>Delivery charges are not included.</p><button id="checkoutButton" class="btn btn-forest w-100"
+        type="button">Confirm Order <i class="bi bi-check2-circle"></i></button><small>Thank you for your
+        purchase!</small>
+    </div>
+  </aside>
+
+  <div class="book-lightbox" id="bookLightbox" aria-hidden="true"><button id="lightboxClose" aria-label="Close image"><i
+        class="bi bi-x-lg"></i></button><img id="lightboxImage" src="" alt="Expanded book cover"></div>
+  <button id="backToTop" class="back-top" aria-label="Scroll to top" title="Scroll to top"><i class="bi bi-arrow-up"></i></button>
+  <button id="scrollDown" class="scroll-down" aria-label="Scroll down" title="Scroll down"><i class="bi bi-arrow-down"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+
+  <section class="receipt-overlay" id="receiptOverlay" aria-hidden="true">
+    <article class="receipt-paper" id="receiptPaper">
+      <div class="receipt-top">
+        <span class="receipt-brand">Novel <em>Nest</em></span>
+        <span class="receipt-kicker">ORDER RECEIPT</span>
+      </div>
+      <div class="receipt-success"><i class="bi bi-check-circle-fill"></i><h2>Thank you for your order!</h2><p>Your order details are ready below.</p></div>
+      <div class="receipt-meta">
+        <div><small>RECEIPT NUMBER</small><strong id="receiptNumber">NN-000000</strong></div>
+        <div><small>DATE</small><strong id="receiptDate">—</strong></div>
+      </div>
+      <div class="receipt-customer"><small>ORDERED BY</small><strong id="receiptCustomer">—</strong><span id="receiptEmail">—</span><span id="receiptPhone">—</span><span id="receiptAddress">—</span></div>
+      <div class="receipt-lines" id="receiptLines"></div>
+      <div class="receipt-total"><span>Total</span><strong id="receiptTotal">Rs. 0</strong></div>
+      <p class="receipt-note">This is a demo-store receipt. Your order details are shown locally and no payment has been processed.</p>
+      <div class="receipt-actions">
+        <button type="button" class="btn btn-forest" id="downloadReceipt"><i class="bi bi-file-earmark-pdf"></i> Download PDF</button>
+        <button type="button" class="btn btn-outline-dark" id="printReceipt"><i class="bi bi-printer"></i> Print Receipt</button>
+        <button type="button" class="receipt-close" id="closeReceipt">Close</button>
+      </div>
+    </article>
+  </section>
+
+</body>
+</html>
